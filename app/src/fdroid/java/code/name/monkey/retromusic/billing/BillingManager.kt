@@ -7,6 +7,5 @@ class BillingManager(context: Context) {
 
     fun release() {}
 
-    val isProVersion: Boolean
-        get() = true
+    val isProVersion: Boolean = true
 }

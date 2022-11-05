@@ -32,6 +32,5 @@ class BillingManager(context: Context) {
         billingProcessor.release()
     }
 
-    val isProVersion: Boolean
-        get() = billingProcessor.isPurchased(Constants.PRO_VERSION_PRODUCT_ID)
+    val isProVersion: Boolean = true
 }
