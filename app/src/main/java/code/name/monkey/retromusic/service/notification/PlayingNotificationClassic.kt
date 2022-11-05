@@ -216,6 +216,7 @@ class PlayingNotificationClassic(
                     bigContentView.setImageViewBitmap(R.id.action_next, next)
                     bigContentView.setImageViewBitmap(R.id.action_play_pause, playPause)
 
+                    /*
                     contentView.setImageViewBitmap(
                         R.id.smallIcon,
                         context.getTintedDrawable(
@@ -230,6 +231,7 @@ class PlayingNotificationClassic(
                             secondary
                         ).toBitmap(0.6f)
                     )
+                    */
                 }
             })
     }
